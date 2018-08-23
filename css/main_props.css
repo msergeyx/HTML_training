@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 @import url("https://fonts.googleapis.com/css?family=Poiret+One");
 
-footer {
-  font-family: 'Poiret One';
-  text-align: center;
-  font-size: 16px;
-  bottom: 0;
-  position: fixed;
-  width: 100%;
+html, main, footer {
+  background-color: #393D3F;
+  color: #FDFDFF;
+}
+
+body {
+  margin: 0;
 }
 
 header ul {
@@ -35,11 +35,11 @@ header li a:hover {
     background-color: #62929E;
 }
 
-html, main, footer {
-  background-color: #393D3F;
-  color: #FDFDFF;
-}
-
-body {
-  margin: 0;
+footer {
+  font-family: 'Poiret One';
+  text-align: center;
+  font-size: 16px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
