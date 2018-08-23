@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Abel");
+
+main p {
+  font-family: 'Abel';
+  font-size: 18px;
+}
+
+main h1 {
+  font-family: 'Raleway';
+}
+
+main {
+  text-align: center;
+  padding-left: 400px;
+  padding-right: 400px;
+}
