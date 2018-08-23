@@ -9,3 +9,7 @@ main li {
   font-family: 'Abel';
   font-size: 17px;
 }
+
+main {
+  padding-left: 25px;
+}
