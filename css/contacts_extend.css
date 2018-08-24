@@ -1,15 +1,54 @@
 @import url("https://fonts.googleapis.com/css?family=Abel");
 
-.general__paragr {
+.card__paragr, .card__head__heading {
   font-family: 'Abel';
   font-size: 18px;
 }
 
-.general__contact {
+.card__contact, .card__down__paragr {
   font-family: 'Abel';
   font-size: 17px;
 }
 
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.card {
+  display: block;
+  border: 1px solid #546A7B;
+  flex-grow: 1;
+  max-width: 20em;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 #000000;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 #ffffff;
+}
+
+.card__head__heading, .card__down__paragr {
+  text-align: center;
+}
+
 .general {
-  padding-left: 25px;
+  margin-top: 20px;
+}
+
+.card__head__heading {
+  background-color: #546A7B;
+  margin: 0px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.card__head__heading, .card__paragr, .card__contact, .card__down__paragr {
+  padding-left: 5px;
+  padding-right: 5px;
 }
