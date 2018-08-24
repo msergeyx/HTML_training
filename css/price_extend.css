@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Abel");
 
-main {
+.general {
   font-family: 'Abel';
   font-size: 18px;
   padding-left: 250px;
   padding-right: 250px;
 }
 
-tr:nth-child(even) {
+.general__table__line:nth-child(even) {
   background-color: #62929E;
 }
 
-table {
+.general__table {
   width: 100%;
 }

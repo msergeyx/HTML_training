@@ -10,20 +10,24 @@ body {
   margin: 0;
 }
 
-header ul {
+/* header {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+} */
+
+.header__havigation__elements-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #546A7B;
-}
+    overflow: hidden;
+  }
 
-header li {
+.header__havigation__element {
     float: left;
     font-family: 'Raleway';
 }
 
-header li a {
+.header__havigation__element__link {
     display: block;
     color: white;
     text-align: center;
@@ -31,11 +35,11 @@ header li a {
     text-decoration: none;
 }
 
-header li a:hover {
+.header__havigation__element__link:hover {
     background-color: #62929E;
 }
 
-footer {
+.footer {
   font-family: 'Poiret One';
   text-align: center;
   font-size: 16px;

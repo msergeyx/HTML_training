@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 @import url("https://fonts.googleapis.com/css?family=Abel");
 
-main p {
+.general__paragr {
   font-family: 'Abel';
   font-size: 18px;
 }
 
-main h1 {
+.general__header {
   font-family: 'Raleway';
 }
 
-main {
+.general {
   text-align: center;
   padding-left: 400px;
   padding-right: 400px;

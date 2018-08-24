@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Abel");
 
-main p {
+.general__paragr {
   font-family: 'Abel';
   font-size: 18px;
 }
 
-main li {
+.general__contact {
   font-family: 'Abel';
   font-size: 17px;
 }
 
-main {
+.general {
   padding-left: 25px;
 }
